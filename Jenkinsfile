@@ -3,7 +3,7 @@ node {
     def mvnHome
     stage('Preparation') { // for display purposes
         // Get some code from a GitHub repository
-        git 'C:\\Users\\Vivek\\source-codes\\continuous-delivery-demo\\'
+        git 'https://github.com/pratikjais123/continuous-delivery-demo.git'
         // Get the Maven tool.
         // ** NOTE: This 'M3' Maven tool must be configured
         // **       in the global configuration.
